@@ -1,0 +1,12 @@
+const containerSection = document.getElementById('container');
+const secondItems = document.querySelectorAll('.second');
+const thirdInOl = document.querySelector('ol .third');
+console.log(thirdInOl.textContent); 
+containerSection.textContent = 'Hello!';
+const footerDiv = document.querySelector('.footer');
+footerDiv.classList.add('main');
+footerDiv.classList.remove('main');
+const newLi = document.createElement('li');
+newLi.textContent = 'four';
+const ulElement = document.querySelector('ul');
+ulElement.appendChild(newLi);
